@@ -3,3 +3,10 @@
     box-sizing: border-box;
     margin: 0px;
 }
+
+.Dontshow{
+    display: none;
+}
+.show{
+
+}

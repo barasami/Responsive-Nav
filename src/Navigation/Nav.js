@@ -12,9 +12,9 @@ function Nav() {
     <nav>
         <div>SimpleNav</div>
         <div onClick={changeMe}>
-            {menu ? <ClearIcon/>: <DehazeIcon/>  }
+            {menu ? <DehazeIcon/>: <ClearIcon/>  }
         </div>
-        <div>
+        <div className={menu ? 'Dontshow' : 'show'}>
             <ul>
                 <li>home</li>
                 <li>About</li>
