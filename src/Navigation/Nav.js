@@ -9,17 +9,17 @@ function Nav() {
         setMenu(!menu)
     }
   return (
-    <nav>
-        <div>SimpleNav</div>
-        <div onClick={changeMe}>
-            {menu ? <DehazeIcon/>: <ClearIcon/>  }
+    <nav className='navbar'>
+        <div className='title'>SimpleNav</div>
+        <div className='mymenu' onClick={changeMe}>
+            {menu ? <DehazeIcon className='icon'/>: <ClearIcon className='icon'/>  }
         </div>
         <div className={menu ? 'Dontshow' : 'show'}>
             <ul>
-                <li>home</li>
-                <li>About</li>
-                <li>Products</li>
-                <li>Contact</li>
+                <li><a href='#'>home</a></li>
+                <li><a href='#'>About</a></li>
+                <li><a href='#'>Products</a></li>
+                <li><a href='#'>Contact</a></li>
             </ul>
         </div>
     </nav>
