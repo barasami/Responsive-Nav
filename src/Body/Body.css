@@ -1,0 +1,27 @@
+    *{
+        padding: 0px;
+        box-sizing: border-box;
+        margin: 0px;
+        
+    }
+  
+    .mybody{
+        margin-left: 25%;
+        margin-right: 25%;
+        align-items: center;
+        justify-content: center;
+        color: seagreen;
+        font-size:x-large;
+        margin-top: 30px;
+        text-transform: uppercase;
+        
+    }
+    @media screen and (max-width:500px) {
+        .mybody{
+            font-size: medium;
+            text-transform: capitalize;
+            color: darkblue;
+            
+        }
+        
+    }
