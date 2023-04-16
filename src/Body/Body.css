@@ -4,6 +4,11 @@
         margin: 0px;
         
     }
+    .home{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
   
     .mybody{
         margin-left: 25%;

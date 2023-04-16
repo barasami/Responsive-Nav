@@ -3,7 +3,7 @@ import './Body.css'
 
 function Body() {
   return (
-    <div>
+    <div className='home'>
       <p className='mybody'>Responsive Navigation bar</p>
     </div>
   )
